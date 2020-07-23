@@ -1,0 +1,60 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap'); */
+
+body {
+    font-family: 'Roboto Slab', arial;
+    background-color:rgb(201, 166, 233);
+}
+
+/* nav bar */
+#nav {
+    display: block;
+    background-color: lightblue;
+    display: inline-block;
+    width: 98vw;
+    border: 3px solid blue;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h4 {
+    padding: 10px 8px 10px 8px;
+}
+/* main body section */
+#quiz {
+    text-align: center;
+}
+
+#quizBody {
+    text-align: center;
+    padding: 12vh;
+}
+
+button {
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    font-family: 'Roboto Slab', arial;
+    margin: 4px;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: lightblue;
+}
+
